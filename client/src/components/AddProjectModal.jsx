@@ -22,7 +22,6 @@ const AddProjectModal = () => {
         },
     });
 
-    // Get Clients for select
     const { loading, error, data } = useQuery(GET_CLIENTS);
 
     const onSubmit = (e) => {
